@@ -64,6 +64,29 @@ CVSS v2.0 Vector: CVSS2#AV:N/AC:L/Au:N/C:P/I:P/A:N
 ![image](https://github.com/FarisDou/Vulnerability-Management/assets/109401839/e477c0c9-d17f-4137-b7f1-8f604427f83d)
 ![image](https://github.com/FarisDou/Vulnerability-Management/assets/109401839/3a40f9c2-85d5-482d-91ca-64f7f0a16515)
 
+We will need a custom CA to resolve this, in this case we will generate a self-signed SSL certificate and then add it into nessus rules. 
+Follow the below instruction to create self signed certificate for development purpose
+
+
+1. Open powershell command as administrator. 
+
+if you do not have powershell installed, use this link to install. 
+
+https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.3
+
+2. run this command in powershell
+
+$cert = New-SelfSignedCertificate -CertStoreLocation "cert:\LocalMachine\My"
+
+
+3. run this command in powershell
+
+$pwd = ConvertTo-SecureString -String ‘Test@123’ -Force -AsPlainText
+
+
+4. to see the thumbprint run below 
+ $cert
+
 ---
 
 Final Notes: 
