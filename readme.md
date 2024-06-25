@@ -62,7 +62,7 @@ CVSS v2.0 Base Score: 6.4
 CVSS v2.0 Vector: CVSS2#AV:N/AC:L/Au:N/C:P/I:P/A:N
 
 ![image](https://github.com/FarisDou/Vulnerability-Management/assets/109401839/e477c0c9-d17f-4137-b7f1-8f604427f83d)
-![image](https://github.com/FarisDou/Vulnerability-Management/assets/109401839/3a40f9c2-85d5-482d-91ca-64f7f0a16515)
+
 
 We will need a custom CA to resolve this, in this case we will generate a self-signed SSL certificate and then add it into nessus rules. 
 Follow the below instruction to create self signed certificate for development purpose
