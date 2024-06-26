@@ -95,6 +95,9 @@ No risk factors found and benign/informational alerts.
 
 Certain ports and their applications are more likely to be targeted because they often have weaker credentials and defenses. Common vulnerable ports include:
 
+![image](https://github.com/FarisDou/Vulnerability-Management/assets/109401839/cb49e2f4-d798-4a95-9254-b051f78b061d)
+
+
 FTP (20, 21)
 SSH (22)
 Telnet (23)
