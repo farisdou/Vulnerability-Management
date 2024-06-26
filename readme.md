@@ -91,7 +91,19 @@ $pwd = ConvertTo-SecureString -String ‘Test@123’ -Force -AsPlainText
 
 Final Notes: 
 Additional scans were for CISA top vulnerabilties scan, Ransomeware scan, and Microsoft Proxy C2C Scan.
-No risk factors found and benign/informational alerts. 
+No risk factors found and benign/informational alerts.
 
+Certain ports and their applications are more likely to be targeted because they often have weaker credentials and defenses. Common vulnerable ports include:
+
+FTP (20, 21)
+SSH (22)
+Telnet (23)
+SMTP (25)
+NetBIOS over TCP (137, 139)
+SMB (445)
+Ports 1433, 1434 and 3306
+Remote desktop (3389)
+
+Its best practice to close ports that are unused. You can use netstat -aonb in CMD to see what processes/ports are listening, established, or close wait. 
 
 
