@@ -95,6 +95,10 @@ Final Notes, No IoC for the following:
 - Spectre and Meltdown
 - CISA top vulnerabilties scan
 - Microsoft Proxy C2C Scan.
+- Solorigate
+- ContiLeaks
+- 2022 Threat Landscape Report (TLR)
+
 
 No risk factors found and benign/informational alerts.
 
